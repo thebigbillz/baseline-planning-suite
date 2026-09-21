@@ -1,0 +1,30 @@
+{
+  "name": "@baseline/shell",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Host: navigation, display currency, active user, remote loading and failure isolation",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@baseline/contracts": "1.0.0",
+    "@baseline/tokens": "1.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.10.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "swc-loader": "^0.2.6",
+    "typescript": "^5.6.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
