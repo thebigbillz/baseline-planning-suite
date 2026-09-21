@@ -1,0 +1,29 @@
+.strip {
+  height: 56px; flex: none; box-sizing: border-box; padding: 0 32px; display: flex; align-items: center; justify-content: flex-end; gap: 14px;
+  background: var(--bl-surface); border-bottom: 1px solid var(--bl-border);
+}
+.currency { display: flex; align-items: center; gap: 8px; height: 34px; padding: 0 6px 0 12px; border: 1px solid var(--bl-border); border-radius: var(--bl-radius-m); font-size: 13px; color: var(--bl-ink-3); }
+.currency select { border: 0; background: transparent; font: 500 13px var(--bl-font); color: var(--bl-ink); cursor: pointer; }
+.currency:focus-within { box-shadow: var(--bl-focus); }
+.currency select:focus { outline: none; }
+.user { position: relative; }
+.userButton { display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 2px 0 8px; border: 0; border-radius: var(--bl-radius-m); background: transparent; text-align: right; cursor: pointer; font-family: var(--bl-font); }
+.userButton:focus-visible { outline: none; box-shadow: var(--bl-focus); }
+.who { display: flex; flex-direction: column; gap: 1px; }
+.name { font-size: 13px; font-weight: 500; color: var(--bl-ink); }
+.role { font-size: 11.5px; color: var(--bl-ink-3); }
+.avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--bl-ink); color: #fff; font-size: 11.5px; font-weight: 600; display: flex; align-items: center; justify-content: center; }
+.menu {
+  position: absolute; right: 0; top: 46px; z-index: 20; width: 320px; box-sizing: border-box; padding: 8px 0; display: flex; flex-direction: column;
+  background: var(--bl-surface); border: 1px solid var(--bl-border); border-radius: var(--bl-radius-m); box-shadow: var(--bl-shadow-pop);
+}
+.heading { margin: 0; padding: 8px 16px 6px; font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--bl-ink-3); }
+.item { height: 40px; padding: 0 16px; border: 0; background: transparent; text-align: left; font: 13px var(--bl-font); color: var(--bl-ink); cursor: pointer; }
+.item:hover { background: var(--bl-derived); }
+.item[aria-pressed='true'] { background: var(--bl-derived); font-weight: 600; }
+.rule { border: 0; height: 1px; background: var(--bl-border); margin: 8px 0; }
+.switchRow { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 16px; font-size: 13px; cursor: pointer; }
+.switchRow span { flex: 1; }
+.switchRow input { width: 18px; height: 18px; accent-color: var(--bl-alert); }
+.hint { margin: 0; padding: 4px 16px 10px; font-size: 11.5px; line-height: 17px; color: var(--bl-ink-3); }
+.hint code { font-family: var(--bl-mono); }

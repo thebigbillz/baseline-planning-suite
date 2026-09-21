@@ -1,0 +1,4 @@
+.app { display: flex; height: 100vh; overflow: hidden; }
+.main { flex: 1; min-width: 0; display: flex; flex-direction: column; background: var(--bl-surface); }
+.panel { flex: 1; min-height: 0; display: flex; flex-direction: column; overflow: auto; }
+.panel[hidden] { display: none; }

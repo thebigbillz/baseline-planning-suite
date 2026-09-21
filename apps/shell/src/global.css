@@ -1,0 +1,2 @@
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: var(--bl-font); color: var(--bl-ink); background: var(--bl-surface); -webkit-font-smoothing: antialiased; }

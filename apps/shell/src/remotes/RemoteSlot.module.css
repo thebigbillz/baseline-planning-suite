@@ -1,0 +1,4 @@
+.slot { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.mount { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.mount[hidden] { display: none; }
+.loading { margin: 0; padding: 32px; font-size: 13.5px; color: var(--bl-ink-3); }

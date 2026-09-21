@@ -1,0 +1,21 @@
+.sidebar {
+  width: 232px; flex: none; box-sizing: border-box; padding: 20px 14px 16px;
+  display: flex; flex-direction: column; gap: 4px;
+  background: var(--bl-ground); border-right: 1px solid var(--bl-border);
+}
+.brand { display: flex; align-items: center; gap: 10px; padding: 2px 8px 20px; font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
+.nav { display: flex; flex-direction: column; gap: 4px; }
+.link {
+  display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 12px; border-radius: var(--bl-radius-m);
+  font-size: 14px; font-weight: 500; color: var(--bl-ink-2); text-decoration: none;
+}
+.link:hover { background: var(--bl-sunken); }
+.link[aria-current='page'] { background: var(--bl-accent-tint); color: var(--bl-accent); font-weight: 600; }
+.link:focus-visible { outline: none; box-shadow: var(--bl-focus); }
+.label { flex: 1; }
+/* Health is carried by shape as well as colour: a round dot is fine, a square is down. */
+.dot { width: 6px; height: 6px; border-radius: 50%; background: var(--bl-ink-4); }
+.dot[data-health='healthy'] { background: var(--bl-ok); }
+.dot[data-health='down'] { background: var(--bl-alert); border-radius: 0; }
+.slot { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.slot[hidden] { display: none; }

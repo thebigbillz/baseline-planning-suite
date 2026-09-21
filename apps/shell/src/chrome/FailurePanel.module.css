@@ -1,0 +1,24 @@
+.frame {
+  flex: 1; margin: 32px; padding: 0 64px; display: flex; align-items: center;
+  border: 1px dashed var(--bl-ink-4); border-radius: var(--bl-radius-m);
+  background: repeating-linear-gradient(135deg, var(--bl-derived) 0 6px, var(--bl-surface) 6px 14px);
+}
+.card {
+  width: 560px; max-width: 100%; box-sizing: border-box; padding: 36px 40px; display: flex; flex-direction: column; gap: 18px;
+  background: var(--bl-surface); border: 1px solid var(--bl-border); border-radius: var(--bl-radius-m);
+}
+.eyebrow { margin: 0; font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--bl-alert); }
+.title { margin: 0; font-size: 32px; font-weight: 600; line-height: 40px; letter-spacing: -0.01em; }
+.body { margin: 0; font-size: 14.5px; line-height: 22px; color: var(--bl-ink-2); }
+.actions { display: flex; gap: 10px; }
+.primary, .secondary { height: 40px; padding: 0 18px; border-radius: var(--bl-radius-m); font: 600 13.5px var(--bl-font); cursor: pointer; }
+.primary { border: 0; background: var(--bl-accent); color: #fff; }
+.primary:hover { background: var(--bl-accent-hover); }
+.secondary { border: 1px solid var(--bl-ink-4); background: var(--bl-surface); color: var(--bl-ink); }
+.primary:focus-visible, .secondary:focus-visible { outline: none; box-shadow: var(--bl-focus); }
+.details {
+  margin: 0; padding-top: 14px; border-top: 1px solid var(--bl-border);
+  display: grid; grid-template-columns: 64px 1fr; gap: 6px 12px;
+  font: 11.5px/17px var(--bl-mono); color: var(--bl-ink-2);
+}
+.details dd { margin: 0; overflow-wrap: anywhere; }
