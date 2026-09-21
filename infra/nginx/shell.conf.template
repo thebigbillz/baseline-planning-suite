@@ -1,0 +1,20 @@
+# The shell, and the single front door on :8080.
+# Upstreams are resolved per request (variables + resolver), so the shell starts
+# and stays up when a remote's container is missing. That is the failure the
+# brief asks us to survive.
+server {
+  listen 80;
+  root /usr/share/nginx/html;
+  resolver 127.0.0.11 valid=10s ipv6=off;
+
+  location = /config.json { add_header Cache-Control "no-store" always; }
+  location = /index.html { add_header Cache-Control "no-store" always; }
+
+  location /remotes/people/ { set $upstream http://people:80; rewrite ^/remotes/people/(.*)$ /$1 break; proxy_pass $upstream; }
+  location /remotes/delivery/ { set $upstream http://delivery:80; rewrite ^/remotes/delivery/(.*)$ /$1 break; proxy_pass $upstream; }
+
+  location /api/people/ { set $upstream http://people-api:4001; proxy_pass $upstream; }
+  location /api/delivery/ { set $upstream http://delivery-api:4002; proxy_pass $upstream; }
+
+  location / { try_files $uri /index.html; }
+}

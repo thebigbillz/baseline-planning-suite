@@ -1,0 +1,8 @@
+**/node_modules
+**/dist
+services/*/data
+.git
+.claude
+docs
+*.pdf
+/baseline-seed.json

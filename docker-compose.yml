@@ -1,0 +1,42 @@
+# docker compose up  →  http://localhost:8080
+#
+#   shell        :8080  the suite (also the front door to the remotes and services)
+#   people       :8081  People, standalone
+#   delivery     :8082  Delivery, standalone
+#
+# Break a remote on purpose:  docker compose stop delivery   (or open /delivery?break=delivery)
+
+services:
+  shell:
+    build: { context: ., dockerfile: infra/web.Dockerfile, args: { APP: shell, ROLE: shell } }
+    ports: ['8080:80']
+    environment:
+      # The only place remote addresses live. Change them and restart: no rebuild.
+      PEOPLE_REMOTE_URL: /remotes/people/remoteEntry.js
+      DELIVERY_REMOTE_URL: /remotes/delivery/remoteEntry.js
+    depends_on: [people, delivery]
+
+  people:
+    build: { context: ., dockerfile: infra/web.Dockerfile, args: { APP: people } }
+    ports: ['8081:80']
+    depends_on: [people-api, delivery-api]
+
+  delivery:
+    build: { context: ., dockerfile: infra/web.Dockerfile, args: { APP: delivery } }
+    ports: ['8082:80']
+    depends_on: [people-api, delivery-api]
+
+  people-api:
+    build: { context: ., dockerfile: infra/service.Dockerfile, args: { SERVICE: people-api } }
+    environment: { PORT: '4001', DATA_FILE: /data/people.json }
+    volumes: ['people-data:/data']
+
+  delivery-api:
+    build: { context: ., dockerfile: infra/service.Dockerfile, args: { SERVICE: delivery-api } }
+    environment: { PORT: '4002', DATA_FILE: /data/delivery.json }
+    volumes: ['delivery-data:/data']
+
+# Edits survive reloads and restarts. `docker compose down -v` returns to the fixture.
+volumes:
+  people-data:
+  delivery-data:
