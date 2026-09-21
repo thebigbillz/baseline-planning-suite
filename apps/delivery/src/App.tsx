@@ -318,7 +318,7 @@ export function App({ host, sidebarSlot }: { readonly host: HostContext; readonl
         <div className={styles['deleteConfirm']} role="alertdialog" aria-label={`Delete ${item.name}`}>
           <span>
             Delete “{item.name}”{doomed.ok && doomed.value.removedItems > 1 ? ` and ${doomed.value.removedItems - 1} items inside` : ''}
-            {doomed.ok && doomed.value.removedAllocations > 0 ? `, with ${doomed.value.removedAllocations} allocations` : ''}?
+            {doomed.ok && doomed.value.removedAllocations > 0 ? `, with ${doomed.value.removedAllocations} ${doomed.value.removedAllocations === 1 ? 'allocation' : 'allocations'}` : ''}?
           </span>
           <button type="button" onClick={() => setMode(null)}>
             Keep

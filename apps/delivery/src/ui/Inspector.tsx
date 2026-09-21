@@ -30,6 +30,12 @@ interface InspectorProps {
   readonly onMove: (from: MonthKey, to: MonthKey, keep: number, moved: number) => void;
 }
 
+/** Fixture rows were never edited, so they share one timestamp; the tie falls to the higher id and the label says so. */
+const causeLabel = (cause: Allocation): string =>
+  new Date(cause.updatedAt).getTime() === 0
+    ? 'caused the overload (fixture data, not edited yet)'
+    : `latest edit${cause.updatedBy === null ? '' : ` by ${cause.updatedBy}`}, caused the overload`;
+
 const pathOf = (plan: Plan, allocation: Allocation): { project: string; path: string } => {
   const names: string[] = [];
   let item = plan.items.find((candidate) => candidate.id === allocation.breakdownItemId);
@@ -82,7 +88,7 @@ export function Inspector(props: InspectorProps) {
                     <span>
                       {place.path}
                       {contribution.id === props.allocation?.id ? ' · this cell' : ''}
-                      {isCause ? ` · latest edit${contribution.updatedBy === null ? '' : ` by ${contribution.updatedBy}`}, caused the overload` : ''}
+                      {isCause ? ` · ${causeLabel(contribution)}` : ''}
                     </span>
                   </div>
                   <div className={styles['bar']}>
