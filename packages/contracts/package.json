@@ -1,0 +1,10 @@
+{
+  "name": "@baseline/contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Published contracts between shell, People and Delivery: types and names only, no logic",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": { "typecheck": "tsc -p tsconfig.json" }
+}

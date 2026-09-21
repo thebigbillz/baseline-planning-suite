@@ -1,0 +1,7 @@
+{
+  "name": "@baseline/tokens",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Design tokens as CSS custom properties. Styling only, no components.",
+  "main": "tokens.css"
+}

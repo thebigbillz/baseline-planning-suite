@@ -1,0 +1,6885 @@
+{
+  "meta": {
+    "name": "Baseline Planning Suite - seed fixtures",
+    "version": "1.0.0",
+    "gridHorizon": {
+      "from": "2026-04",
+      "to": "2027-03"
+    },
+    "note": "Field names here are not prescriptive. Map this into whatever model your design calls for; keep the ids and the values."
+  },
+  "employees": [
+    {
+      "id": "emp-001",
+      "name": "Adaeze Okafor",
+      "role": "Tech Lead",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-002",
+      "name": "Lena Okafor",
+      "role": "Frontend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-003",
+      "name": "Milan Brandt",
+      "role": "Backend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-004",
+      "name": "Samira Haddad",
+      "role": "Frontend Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-005",
+      "name": "Tomas Novak",
+      "role": "Frontend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-006",
+      "name": "Ines Ferreira",
+      "role": "Tech Lead",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-007",
+      "name": "Jonas Weiss",
+      "role": "Tech Lead",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-008",
+      "name": "Priya Nair",
+      "role": "Platform Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-009",
+      "name": "Mateo Duarte",
+      "role": "Data Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-010",
+      "name": "Nora Lindqvist",
+      "role": "QA Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-011",
+      "name": "Kwame Mensah",
+      "role": "QA Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-012",
+      "name": "Elif Demir",
+      "role": "Product Designer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-013",
+      "name": "Lukas Fischer",
+      "role": "Delivery Manager",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-014",
+      "name": "Farida Belkacem",
+      "role": "QA Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-015",
+      "name": "Sven Ahlberg",
+      "role": "QA Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-016",
+      "name": "Anja Keller",
+      "role": "Product Designer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-017",
+      "name": "Dimitri Petrov",
+      "role": "Frontend Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-018",
+      "name": "Yara Saleh",
+      "role": "Product Designer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-019",
+      "name": "Bastian Vogel",
+      "role": "Platform Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-020",
+      "name": "Chiara Rossi",
+      "role": "Frontend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-021",
+      "name": "Oskar Lindgren",
+      "role": "Backend Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-022",
+      "name": "Amira Chalabi",
+      "role": "Platform Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-023",
+      "name": "Henrik Bauer",
+      "role": "QA Engineer",
+      "weeklyHours": 20
+    },
+    {
+      "id": "emp-024",
+      "name": "Teodora Ilic",
+      "role": "Frontend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-025",
+      "name": "Rafael Moreno",
+      "role": "QA Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-026",
+      "name": "Lise Dubois",
+      "role": "Tech Lead",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-027",
+      "name": "Nikolai Sokolov",
+      "role": "Data Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-028",
+      "name": "Zeynep Yilmaz",
+      "role": "Backend Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-029",
+      "name": "Emil Nyberg",
+      "role": "Tech Lead",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-030",
+      "name": "Paula Santos",
+      "role": "Frontend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-031",
+      "name": "Ravi Krishnan",
+      "role": "Data Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-032",
+      "name": "Hanna Virtanen",
+      "role": "Data Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-033",
+      "name": "Marek Kowalski",
+      "role": "Data Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-034",
+      "name": "Sofia Marchetti",
+      "role": "Platform Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-035",
+      "name": "Bjorn Halvorsen",
+      "role": "Frontend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-036",
+      "name": "Leila Mansour",
+      "role": "Tech Lead",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-037",
+      "name": "Andres Gutierrez",
+      "role": "Product Designer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-038",
+      "name": "Katrin Hofer",
+      "role": "Platform Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-039",
+      "name": "Tobias Reinhardt",
+      "role": "Delivery Manager",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-040",
+      "name": "Nadia Kaddour",
+      "role": "Backend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-041",
+      "name": "Viktor Melnyk",
+      "role": "Data Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-042",
+      "name": "Ingrid Solberg",
+      "role": "QA Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-043",
+      "name": "Omar Farouk",
+      "role": "Frontend Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-044",
+      "name": "Clara Bergmann",
+      "role": "QA Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-045",
+      "name": "Josef Novotny",
+      "role": "Data Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-046",
+      "name": "Rania Aziz",
+      "role": "Frontend Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-047",
+      "name": "Stefan Lang",
+      "role": "Delivery Manager",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-048",
+      "name": "Maja Jankovic",
+      "role": "Platform Engineer",
+      "weeklyHours": 20
+    },
+    {
+      "id": "emp-049",
+      "name": "Aleks Popovic",
+      "role": "QA Engineer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-050",
+      "name": "Julia Wagner",
+      "role": "Backend Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-051",
+      "name": "Pieter de Vries",
+      "role": "Delivery Manager",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-052",
+      "name": "Noor Rahimi",
+      "role": "Backend Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-053",
+      "name": "Gustav Ahlgren",
+      "role": "Product Designer",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-054",
+      "name": "Marta Zielinska",
+      "role": "Delivery Manager",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-055",
+      "name": "Ismail Toprak",
+      "role": "Tech Lead",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-056",
+      "name": "Freya Dahl",
+      "role": "Delivery Manager",
+      "weeklyHours": 20
+    },
+    {
+      "id": "emp-057",
+      "name": "Daniel Schuster",
+      "role": "Tech Lead",
+      "weeklyHours": 40
+    },
+    {
+      "id": "emp-058",
+      "name": "Alina Moroz",
+      "role": "Data Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-059",
+      "name": "Hugo Almeida",
+      "role": "QA Engineer",
+      "weeklyHours": 32
+    },
+    {
+      "id": "emp-060",
+      "name": "Sara Lindholm",
+      "role": "Delivery Manager",
+      "weeklyHours": 40
+    }
+  ],
+  "rateRecords": [
+    {
+      "id": "rate-001",
+      "employeeId": "emp-001",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 80.0
+    },
+    {
+      "id": "rate-002",
+      "employeeId": "emp-001",
+      "validFrom": "2026-03-12",
+      "hourlyCost": 95.0
+    },
+    {
+      "id": "rate-003",
+      "employeeId": "emp-002",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 85.0
+    },
+    {
+      "id": "rate-004",
+      "employeeId": "emp-003",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 100.0
+    },
+    {
+      "id": "rate-005",
+      "employeeId": "emp-004",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 91.0
+    },
+    {
+      "id": "rate-006",
+      "employeeId": "emp-004",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 99.0
+    },
+    {
+      "id": "rate-007",
+      "employeeId": "emp-004",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 106.0
+    },
+    {
+      "id": "rate-008",
+      "employeeId": "emp-005",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 97.0
+    },
+    {
+      "id": "rate-009",
+      "employeeId": "emp-005",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 100.0
+    },
+    {
+      "id": "rate-010",
+      "employeeId": "emp-005",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 106.0
+    },
+    {
+      "id": "rate-011",
+      "employeeId": "emp-006",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 108.0
+    },
+    {
+      "id": "rate-012",
+      "employeeId": "emp-006",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 113.0
+    },
+    {
+      "id": "rate-013",
+      "employeeId": "emp-006",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 116.0
+    },
+    {
+      "id": "rate-014",
+      "employeeId": "emp-007",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 113.0
+    },
+    {
+      "id": "rate-015",
+      "employeeId": "emp-007",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 125.0
+    },
+    {
+      "id": "rate-016",
+      "employeeId": "emp-007",
+      "validFrom": "2026-05-14",
+      "hourlyCost": 122.0
+    },
+    {
+      "id": "rate-017",
+      "employeeId": "emp-008",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 103.0
+    },
+    {
+      "id": "rate-018",
+      "employeeId": "emp-009",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 83.0
+    },
+    {
+      "id": "rate-019",
+      "employeeId": "emp-009",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 90.0
+    },
+    {
+      "id": "rate-020",
+      "employeeId": "emp-009",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 94.0
+    },
+    {
+      "id": "rate-021",
+      "employeeId": "emp-009",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 99.0
+    },
+    {
+      "id": "rate-022",
+      "employeeId": "emp-010",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 70.0
+    },
+    {
+      "id": "rate-023",
+      "employeeId": "emp-010",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 79.0
+    },
+    {
+      "id": "rate-024",
+      "employeeId": "emp-010",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 87.0
+    },
+    {
+      "id": "rate-025",
+      "employeeId": "emp-010",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 93.0
+    },
+    {
+      "id": "rate-026",
+      "employeeId": "emp-011",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 74.0
+    },
+    {
+      "id": "rate-027",
+      "employeeId": "emp-011",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 80.0
+    },
+    {
+      "id": "rate-028",
+      "employeeId": "emp-011",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 85.0
+    },
+    {
+      "id": "rate-029",
+      "employeeId": "emp-012",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 73.0
+    },
+    {
+      "id": "rate-030",
+      "employeeId": "emp-012",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 79.0
+    },
+    {
+      "id": "rate-031",
+      "employeeId": "emp-012",
+      "validFrom": "2026-06-11",
+      "hourlyCost": 76.0
+    },
+    {
+      "id": "rate-032",
+      "employeeId": "emp-013",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 89.0
+    },
+    {
+      "id": "rate-033",
+      "employeeId": "emp-013",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 98.0
+    },
+    {
+      "id": "rate-034",
+      "employeeId": "emp-014",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 81.0
+    },
+    {
+      "id": "rate-035",
+      "employeeId": "emp-014",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 88.0
+    },
+    {
+      "id": "rate-036",
+      "employeeId": "emp-015",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 77.0
+    },
+    {
+      "id": "rate-037",
+      "employeeId": "emp-015",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 82.0
+    },
+    {
+      "id": "rate-038",
+      "employeeId": "emp-016",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 76.0
+    },
+    {
+      "id": "rate-039",
+      "employeeId": "emp-016",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 85.0
+    },
+    {
+      "id": "rate-040",
+      "employeeId": "emp-016",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 91.0
+    },
+    {
+      "id": "rate-041",
+      "employeeId": "emp-017",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 81.0
+    },
+    {
+      "id": "rate-042",
+      "employeeId": "emp-017",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 89.0
+    },
+    {
+      "id": "rate-043",
+      "employeeId": "emp-017",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-044",
+      "employeeId": "emp-017",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 100.0
+    },
+    {
+      "id": "rate-045",
+      "employeeId": "emp-018",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 74.0
+    },
+    {
+      "id": "rate-046",
+      "employeeId": "emp-019",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 90.0
+    },
+    {
+      "id": "rate-047",
+      "employeeId": "emp-019",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 100.0
+    },
+    {
+      "id": "rate-048",
+      "employeeId": "emp-019",
+      "validFrom": "2026-07-16",
+      "hourlyCost": 94.0
+    },
+    {
+      "id": "rate-049",
+      "employeeId": "emp-020",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-050",
+      "employeeId": "emp-021",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 93.0
+    },
+    {
+      "id": "rate-051",
+      "employeeId": "emp-021",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-052",
+      "employeeId": "emp-021",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 102.0
+    },
+    {
+      "id": "rate-053",
+      "employeeId": "emp-022",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 107.0
+    },
+    {
+      "id": "rate-054",
+      "employeeId": "emp-022",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 111.0
+    },
+    {
+      "id": "rate-055",
+      "employeeId": "emp-022",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 114.0
+    },
+    {
+      "id": "rate-056",
+      "employeeId": "emp-023",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 76.0
+    },
+    {
+      "id": "rate-057",
+      "employeeId": "emp-023",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 88.0
+    },
+    {
+      "id": "rate-058",
+      "employeeId": "emp-023",
+      "validFrom": "2026-09-10",
+      "hourlyCost": 81.0
+    },
+    {
+      "id": "rate-059",
+      "employeeId": "emp-024",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 90.0
+    },
+    {
+      "id": "rate-060",
+      "employeeId": "emp-025",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 68.0
+    },
+    {
+      "id": "rate-061",
+      "employeeId": "emp-025",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 73.0
+    },
+    {
+      "id": "rate-062",
+      "employeeId": "emp-025",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 77.0
+    },
+    {
+      "id": "rate-063",
+      "employeeId": "emp-026",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 112.0
+    },
+    {
+      "id": "rate-064",
+      "employeeId": "emp-026",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 117.0
+    },
+    {
+      "id": "rate-065",
+      "employeeId": "emp-027",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-066",
+      "employeeId": "emp-027",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 102.0
+    },
+    {
+      "id": "rate-067",
+      "employeeId": "emp-027",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 105.0
+    },
+    {
+      "id": "rate-068",
+      "employeeId": "emp-027",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 112.0
+    },
+    {
+      "id": "rate-069",
+      "employeeId": "emp-028",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 90.0
+    },
+    {
+      "id": "rate-070",
+      "employeeId": "emp-028",
+      "validFrom": "2026-10-15",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-071",
+      "employeeId": "emp-029",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 113.0
+    },
+    {
+      "id": "rate-072",
+      "employeeId": "emp-029",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 122.0
+    },
+    {
+      "id": "rate-073",
+      "employeeId": "emp-029",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 125.0
+    },
+    {
+      "id": "rate-074",
+      "employeeId": "emp-030",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 90.0
+    },
+    {
+      "id": "rate-075",
+      "employeeId": "emp-030",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 97.0
+    },
+    {
+      "id": "rate-076",
+      "employeeId": "emp-031",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-077",
+      "employeeId": "emp-031",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 99.0
+    },
+    {
+      "id": "rate-078",
+      "employeeId": "emp-031",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 104.0
+    },
+    {
+      "id": "rate-079",
+      "employeeId": "emp-032",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 86.0
+    },
+    {
+      "id": "rate-080",
+      "employeeId": "emp-032",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 92.0
+    },
+    {
+      "id": "rate-081",
+      "employeeId": "emp-033",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 90.0
+    },
+    {
+      "id": "rate-082",
+      "employeeId": "emp-033",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 94.0
+    },
+    {
+      "id": "rate-083",
+      "employeeId": "emp-034",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 92.0
+    },
+    {
+      "id": "rate-084",
+      "employeeId": "emp-034",
+      "validFrom": "2026-11-12",
+      "hourlyCost": 95.0
+    },
+    {
+      "id": "rate-085",
+      "employeeId": "emp-035",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 81.0
+    },
+    {
+      "id": "rate-086",
+      "employeeId": "emp-035",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 88.0
+    },
+    {
+      "id": "rate-087",
+      "employeeId": "emp-036",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 114.0
+    },
+    {
+      "id": "rate-088",
+      "employeeId": "emp-036",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 118.0
+    },
+    {
+      "id": "rate-089",
+      "employeeId": "emp-036",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 125.0
+    },
+    {
+      "id": "rate-090",
+      "employeeId": "emp-037",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 71.0
+    },
+    {
+      "id": "rate-091",
+      "employeeId": "emp-037",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 79.0
+    },
+    {
+      "id": "rate-092",
+      "employeeId": "emp-037",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 82.0
+    },
+    {
+      "id": "rate-093",
+      "employeeId": "emp-038",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 104.0
+    },
+    {
+      "id": "rate-094",
+      "employeeId": "emp-038",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 110.0
+    },
+    {
+      "id": "rate-095",
+      "employeeId": "emp-038",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 117.0
+    },
+    {
+      "id": "rate-096",
+      "employeeId": "emp-038",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 122.0
+    },
+    {
+      "id": "rate-097",
+      "employeeId": "emp-039",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 83.0
+    },
+    {
+      "id": "rate-098",
+      "employeeId": "emp-039",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 86.0
+    },
+    {
+      "id": "rate-099",
+      "employeeId": "emp-039",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 91.0
+    },
+    {
+      "id": "rate-100",
+      "employeeId": "emp-039",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-101",
+      "employeeId": "emp-040",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 89.0
+    },
+    {
+      "id": "rate-102",
+      "employeeId": "emp-041",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 93.0
+    },
+    {
+      "id": "rate-103",
+      "employeeId": "emp-041",
+      "validFrom": "2027-01-13",
+      "hourlyCost": 97.0
+    },
+    {
+      "id": "rate-104",
+      "employeeId": "emp-042",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 70.0
+    },
+    {
+      "id": "rate-105",
+      "employeeId": "emp-042",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 73.0
+    },
+    {
+      "id": "rate-106",
+      "employeeId": "emp-042",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 81.0
+    },
+    {
+      "id": "rate-107",
+      "employeeId": "emp-043",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 94.0
+    },
+    {
+      "id": "rate-108",
+      "employeeId": "emp-044",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 67.0
+    },
+    {
+      "id": "rate-109",
+      "employeeId": "emp-045",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 99.0
+    },
+    {
+      "id": "rate-110",
+      "employeeId": "emp-045",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 106.0
+    },
+    {
+      "id": "rate-111",
+      "employeeId": "emp-045",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 112.0
+    },
+    {
+      "id": "rate-112",
+      "employeeId": "emp-046",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 91.0
+    },
+    {
+      "id": "rate-113",
+      "employeeId": "emp-046",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 95.0
+    },
+    {
+      "id": "rate-114",
+      "employeeId": "emp-047",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 84.0
+    },
+    {
+      "id": "rate-115",
+      "employeeId": "emp-047",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 93.0
+    },
+    {
+      "id": "rate-116",
+      "employeeId": "emp-047",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 97.0
+    },
+    {
+      "id": "rate-117",
+      "employeeId": "emp-047",
+      "validFrom": "2027-02-11",
+      "hourlyCost": 89.0
+    },
+    {
+      "id": "rate-118",
+      "employeeId": "emp-048",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 91.0
+    },
+    {
+      "id": "rate-119",
+      "employeeId": "emp-048",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-120",
+      "employeeId": "emp-049",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 70.0
+    },
+    {
+      "id": "rate-121",
+      "employeeId": "emp-049",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 73.0
+    },
+    {
+      "id": "rate-122",
+      "employeeId": "emp-050",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 92.0
+    },
+    {
+      "id": "rate-123",
+      "employeeId": "emp-050",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 95.0
+    },
+    {
+      "id": "rate-124",
+      "employeeId": "emp-051",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 87.0
+    },
+    {
+      "id": "rate-125",
+      "employeeId": "emp-051",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-126",
+      "employeeId": "emp-052",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 92.0
+    },
+    {
+      "id": "rate-127",
+      "employeeId": "emp-052",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 95.0
+    },
+    {
+      "id": "rate-128",
+      "employeeId": "emp-052",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 99.0
+    },
+    {
+      "id": "rate-129",
+      "employeeId": "emp-053",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 86.0
+    },
+    {
+      "id": "rate-130",
+      "employeeId": "emp-053",
+      "validFrom": "2027-03-10",
+      "hourlyCost": 89.0
+    },
+    {
+      "id": "rate-131",
+      "employeeId": "emp-054",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 77.0
+    },
+    {
+      "id": "rate-132",
+      "employeeId": "emp-054",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 85.0
+    },
+    {
+      "id": "rate-133",
+      "employeeId": "emp-054",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 93.0
+    },
+    {
+      "id": "rate-134",
+      "employeeId": "emp-054",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 100.0
+    },
+    {
+      "id": "rate-135",
+      "employeeId": "emp-055",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 114.0
+    },
+    {
+      "id": "rate-136",
+      "employeeId": "emp-055",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 117.0
+    },
+    {
+      "id": "rate-137",
+      "employeeId": "emp-055",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 122.0
+    },
+    {
+      "id": "rate-138",
+      "employeeId": "emp-055",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 130.0
+    },
+    {
+      "id": "rate-139",
+      "employeeId": "emp-056",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 91.0
+    },
+    {
+      "id": "rate-140",
+      "employeeId": "emp-056",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 100.0
+    },
+    {
+      "id": "rate-141",
+      "employeeId": "emp-057",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 119.0
+    },
+    {
+      "id": "rate-142",
+      "employeeId": "emp-057",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 128.0
+    },
+    {
+      "id": "rate-143",
+      "employeeId": "emp-057",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 137.0
+    },
+    {
+      "id": "rate-144",
+      "employeeId": "emp-057",
+      "validFrom": "2026-08-01",
+      "hourlyCost": 143.0
+    },
+    {
+      "id": "rate-145",
+      "employeeId": "emp-058",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 92.0
+    },
+    {
+      "id": "rate-146",
+      "employeeId": "emp-058",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 96.0
+    },
+    {
+      "id": "rate-147",
+      "employeeId": "emp-059",
+      "validFrom": "2024-07-01",
+      "hourlyCost": 69.0
+    },
+    {
+      "id": "rate-148",
+      "employeeId": "emp-059",
+      "validFrom": "2025-07-01",
+      "hourlyCost": 78.0
+    },
+    {
+      "id": "rate-149",
+      "employeeId": "emp-059",
+      "validFrom": "2026-01-01",
+      "hourlyCost": 84.0
+    },
+    {
+      "id": "rate-150",
+      "employeeId": "emp-060",
+      "validFrom": "2025-01-01",
+      "hourlyCost": 86.0
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj-1",
+      "name": "Ledger Consolidation",
+      "startDate": "2026-03-01",
+      "endDate": "2027-02-28"
+    },
+    {
+      "id": "prj-2",
+      "name": "Reporting Platform",
+      "startDate": "2026-04-01",
+      "endDate": "2027-03-31"
+    },
+    {
+      "id": "prj-3",
+      "name": "Client Portal Rebuild",
+      "startDate": "2026-06-01",
+      "endDate": "2027-03-31"
+    },
+    {
+      "id": "prj-4",
+      "name": "Warehouse Data Migration",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31"
+    }
+  ],
+  "breakdownItems": [
+    {
+      "id": "wbs-001",
+      "projectId": "prj-1",
+      "parentId": null,
+      "name": "Ledger migration"
+    },
+    {
+      "id": "wbs-002",
+      "projectId": "prj-1",
+      "parentId": null,
+      "name": "Reporting cut-over"
+    },
+    {
+      "id": "wbs-003",
+      "projectId": "prj-1",
+      "parentId": null,
+      "name": "Controls and audit"
+    },
+    {
+      "id": "wbs-004",
+      "projectId": "prj-1",
+      "parentId": "wbs-001",
+      "name": "Discovery"
+    },
+    {
+      "id": "wbs-005",
+      "projectId": "prj-1",
+      "parentId": "wbs-002",
+      "name": "Core build"
+    },
+    {
+      "id": "wbs-006",
+      "projectId": "prj-1",
+      "parentId": "wbs-003",
+      "name": "Integration"
+    },
+    {
+      "id": "wbs-007",
+      "projectId": "prj-1",
+      "parentId": "wbs-001",
+      "name": "Migration"
+    },
+    {
+      "id": "wbs-008",
+      "projectId": "prj-1",
+      "parentId": "wbs-002",
+      "name": "Hardening"
+    },
+    {
+      "id": "wbs-009",
+      "projectId": "prj-1",
+      "parentId": "wbs-003",
+      "name": "Handover"
+    },
+    {
+      "id": "wbs-010",
+      "projectId": "prj-1",
+      "parentId": "wbs-001",
+      "name": "Pilot"
+    },
+    {
+      "id": "wbs-011",
+      "projectId": "prj-1",
+      "parentId": "wbs-002",
+      "name": "Discovery"
+    },
+    {
+      "id": "wbs-012",
+      "projectId": "prj-1",
+      "parentId": "wbs-004",
+      "name": "Design"
+    },
+    {
+      "id": "wbs-013",
+      "projectId": "prj-1",
+      "parentId": "wbs-005",
+      "name": "Implementation"
+    },
+    {
+      "id": "wbs-014",
+      "projectId": "prj-1",
+      "parentId": "wbs-006",
+      "name": "Test data"
+    },
+    {
+      "id": "wbs-015",
+      "projectId": "prj-1",
+      "parentId": "wbs-007",
+      "name": "Regression"
+    },
+    {
+      "id": "wbs-016",
+      "projectId": "prj-1",
+      "parentId": "wbs-008",
+      "name": "Cutover"
+    },
+    {
+      "id": "wbs-017",
+      "projectId": "prj-1",
+      "parentId": "wbs-009",
+      "name": "Documentation"
+    },
+    {
+      "id": "wbs-018",
+      "projectId": "prj-1",
+      "parentId": "wbs-010",
+      "name": "Performance"
+    },
+    {
+      "id": "wbs-019",
+      "projectId": "prj-1",
+      "parentId": "wbs-011",
+      "name": "Review"
+    },
+    {
+      "id": "wbs-020",
+      "projectId": "prj-1",
+      "parentId": "wbs-004",
+      "name": "Rework"
+    },
+    {
+      "id": "wbs-021",
+      "projectId": "prj-1",
+      "parentId": "wbs-005",
+      "name": "Sign-off"
+    },
+    {
+      "id": "wbs-022",
+      "projectId": "prj-1",
+      "parentId": "wbs-006",
+      "name": "Design"
+    },
+    {
+      "id": "wbs-023",
+      "projectId": "prj-1",
+      "parentId": "wbs-007",
+      "name": "Implementation"
+    },
+    {
+      "id": "wbs-024",
+      "projectId": "prj-1",
+      "parentId": "wbs-008",
+      "name": "Test data"
+    },
+    {
+      "id": "wbs-025",
+      "projectId": "prj-1",
+      "parentId": "wbs-009",
+      "name": "Regression"
+    },
+    {
+      "id": "wbs-026",
+      "projectId": "prj-1",
+      "parentId": "wbs-010",
+      "name": "Cutover"
+    },
+    {
+      "id": "wbs-027",
+      "projectId": "prj-2",
+      "parentId": null,
+      "name": "Data warehouse"
+    },
+    {
+      "id": "wbs-028",
+      "projectId": "prj-2",
+      "parentId": null,
+      "name": "Reporting UI"
+    },
+    {
+      "id": "wbs-029",
+      "projectId": "prj-2",
+      "parentId": null,
+      "name": "Rollout"
+    },
+    {
+      "id": "wbs-030",
+      "projectId": "prj-2",
+      "parentId": "wbs-027",
+      "name": "Discovery"
+    },
+    {
+      "id": "wbs-031",
+      "projectId": "prj-2",
+      "parentId": "wbs-028",
+      "name": "Core build"
+    },
+    {
+      "id": "wbs-032",
+      "projectId": "prj-2",
+      "parentId": "wbs-029",
+      "name": "Integration"
+    },
+    {
+      "id": "wbs-033",
+      "projectId": "prj-2",
+      "parentId": "wbs-027",
+      "name": "Migration"
+    },
+    {
+      "id": "wbs-034",
+      "projectId": "prj-2",
+      "parentId": "wbs-028",
+      "name": "Hardening"
+    },
+    {
+      "id": "wbs-035",
+      "projectId": "prj-2",
+      "parentId": "wbs-029",
+      "name": "Handover"
+    },
+    {
+      "id": "wbs-036",
+      "projectId": "prj-2",
+      "parentId": "wbs-027",
+      "name": "Pilot"
+    },
+    {
+      "id": "wbs-037",
+      "projectId": "prj-2",
+      "parentId": "wbs-030",
+      "name": "Design"
+    },
+    {
+      "id": "wbs-038",
+      "projectId": "prj-2",
+      "parentId": "wbs-031",
+      "name": "Implementation"
+    },
+    {
+      "id": "wbs-039",
+      "projectId": "prj-2",
+      "parentId": "wbs-032",
+      "name": "Test data"
+    },
+    {
+      "id": "wbs-040",
+      "projectId": "prj-2",
+      "parentId": "wbs-033",
+      "name": "Regression"
+    },
+    {
+      "id": "wbs-041",
+      "projectId": "prj-2",
+      "parentId": "wbs-034",
+      "name": "Cutover"
+    },
+    {
+      "id": "wbs-042",
+      "projectId": "prj-2",
+      "parentId": "wbs-035",
+      "name": "Documentation"
+    },
+    {
+      "id": "wbs-043",
+      "projectId": "prj-2",
+      "parentId": "wbs-036",
+      "name": "Performance"
+    },
+    {
+      "id": "wbs-044",
+      "projectId": "prj-2",
+      "parentId": "wbs-030",
+      "name": "Review"
+    },
+    {
+      "id": "wbs-045",
+      "projectId": "prj-2",
+      "parentId": "wbs-031",
+      "name": "Rework"
+    },
+    {
+      "id": "wbs-046",
+      "projectId": "prj-2",
+      "parentId": "wbs-032",
+      "name": "Sign-off"
+    },
+    {
+      "id": "wbs-047",
+      "projectId": "prj-2",
+      "parentId": "wbs-033",
+      "name": "Design"
+    },
+    {
+      "id": "wbs-048",
+      "projectId": "prj-2",
+      "parentId": "wbs-034",
+      "name": "Implementation"
+    },
+    {
+      "id": "wbs-049",
+      "projectId": "prj-2",
+      "parentId": "wbs-035",
+      "name": "Test data"
+    },
+    {
+      "id": "wbs-050",
+      "projectId": "prj-2",
+      "parentId": "wbs-036",
+      "name": "Regression"
+    },
+    {
+      "id": "wbs-051",
+      "projectId": "prj-3",
+      "parentId": null,
+      "name": "Portal shell"
+    },
+    {
+      "id": "wbs-052",
+      "projectId": "prj-3",
+      "parentId": null,
+      "name": "Account management"
+    },
+    {
+      "id": "wbs-053",
+      "projectId": "prj-3",
+      "parentId": null,
+      "name": "Payments"
+    },
+    {
+      "id": "wbs-054",
+      "projectId": "prj-3",
+      "parentId": "wbs-051",
+      "name": "Discovery"
+    },
+    {
+      "id": "wbs-055",
+      "projectId": "prj-3",
+      "parentId": "wbs-052",
+      "name": "Core build"
+    },
+    {
+      "id": "wbs-056",
+      "projectId": "prj-3",
+      "parentId": "wbs-053",
+      "name": "Integration"
+    },
+    {
+      "id": "wbs-057",
+      "projectId": "prj-3",
+      "parentId": "wbs-051",
+      "name": "Migration"
+    },
+    {
+      "id": "wbs-058",
+      "projectId": "prj-3",
+      "parentId": "wbs-052",
+      "name": "Hardening"
+    },
+    {
+      "id": "wbs-059",
+      "projectId": "prj-3",
+      "parentId": "wbs-053",
+      "name": "Handover"
+    },
+    {
+      "id": "wbs-060",
+      "projectId": "prj-3",
+      "parentId": "wbs-054",
+      "name": "Design"
+    },
+    {
+      "id": "wbs-061",
+      "projectId": "prj-3",
+      "parentId": "wbs-055",
+      "name": "Implementation"
+    },
+    {
+      "id": "wbs-062",
+      "projectId": "prj-3",
+      "parentId": "wbs-056",
+      "name": "Test data"
+    },
+    {
+      "id": "wbs-063",
+      "projectId": "prj-3",
+      "parentId": "wbs-057",
+      "name": "Regression"
+    },
+    {
+      "id": "wbs-064",
+      "projectId": "prj-3",
+      "parentId": "wbs-058",
+      "name": "Cutover"
+    },
+    {
+      "id": "wbs-065",
+      "projectId": "prj-3",
+      "parentId": "wbs-059",
+      "name": "Documentation"
+    },
+    {
+      "id": "wbs-066",
+      "projectId": "prj-3",
+      "parentId": "wbs-054",
+      "name": "Performance"
+    },
+    {
+      "id": "wbs-067",
+      "projectId": "prj-3",
+      "parentId": "wbs-055",
+      "name": "Review"
+    },
+    {
+      "id": "wbs-068",
+      "projectId": "prj-3",
+      "parentId": "wbs-056",
+      "name": "Rework"
+    },
+    {
+      "id": "wbs-069",
+      "projectId": "prj-3",
+      "parentId": "wbs-057",
+      "name": "Sign-off"
+    },
+    {
+      "id": "wbs-070",
+      "projectId": "prj-3",
+      "parentId": "wbs-058",
+      "name": "Design"
+    },
+    {
+      "id": "wbs-071",
+      "projectId": "prj-3",
+      "parentId": "wbs-059",
+      "name": "Implementation"
+    },
+    {
+      "id": "wbs-072",
+      "projectId": "prj-3",
+      "parentId": "wbs-054",
+      "name": "Test data"
+    },
+    {
+      "id": "wbs-073",
+      "projectId": "prj-4",
+      "parentId": null,
+      "name": "Extraction"
+    },
+    {
+      "id": "wbs-074",
+      "projectId": "prj-4",
+      "parentId": null,
+      "name": "Load and reconcile"
+    },
+    {
+      "id": "wbs-075",
+      "projectId": "prj-4",
+      "parentId": "wbs-073",
+      "name": "Discovery"
+    },
+    {
+      "id": "wbs-076",
+      "projectId": "prj-4",
+      "parentId": "wbs-074",
+      "name": "Core build"
+    },
+    {
+      "id": "wbs-077",
+      "projectId": "prj-4",
+      "parentId": "wbs-073",
+      "name": "Integration"
+    },
+    {
+      "id": "wbs-078",
+      "projectId": "prj-4",
+      "parentId": "wbs-074",
+      "name": "Migration"
+    },
+    {
+      "id": "wbs-079",
+      "projectId": "prj-4",
+      "parentId": "wbs-073",
+      "name": "Hardening"
+    },
+    {
+      "id": "wbs-080",
+      "projectId": "prj-4",
+      "parentId": "wbs-075",
+      "name": "Design"
+    },
+    {
+      "id": "wbs-081",
+      "projectId": "prj-4",
+      "parentId": "wbs-076",
+      "name": "Implementation"
+    },
+    {
+      "id": "wbs-082",
+      "projectId": "prj-4",
+      "parentId": "wbs-077",
+      "name": "Test data"
+    },
+    {
+      "id": "wbs-083",
+      "projectId": "prj-4",
+      "parentId": "wbs-078",
+      "name": "Regression"
+    },
+    {
+      "id": "wbs-084",
+      "projectId": "prj-4",
+      "parentId": "wbs-079",
+      "name": "Cutover"
+    },
+    {
+      "id": "wbs-085",
+      "projectId": "prj-4",
+      "parentId": "wbs-075",
+      "name": "Documentation"
+    },
+    {
+      "id": "wbs-086",
+      "projectId": "prj-4",
+      "parentId": "wbs-076",
+      "name": "Performance"
+    },
+    {
+      "id": "wbs-087",
+      "projectId": "prj-4",
+      "parentId": "wbs-077",
+      "name": "Review"
+    },
+    {
+      "id": "wbs-088",
+      "projectId": "prj-4",
+      "parentId": "wbs-078",
+      "name": "Rework"
+    },
+    {
+      "id": "wbs-089",
+      "projectId": "prj-4",
+      "parentId": "wbs-079",
+      "name": "Sign-off"
+    },
+    {
+      "id": "wbs-090",
+      "projectId": "prj-4",
+      "parentId": "wbs-075",
+      "name": "Design"
+    }
+  ],
+  "allocations": [
+    {
+      "id": "alloc-001",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-001",
+      "month": "2026-03",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-002",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-016",
+      "month": "2026-04",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-003",
+      "breakdownItemId": "wbs-016",
+      "employeeId": "emp-044",
+      "month": "2026-04",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-004",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-038",
+      "month": "2026-04",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-005",
+      "breakdownItemId": "wbs-026",
+      "employeeId": "emp-055",
+      "month": "2026-04",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-006",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-056",
+      "month": "2026-04",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-007",
+      "breakdownItemId": "wbs-038",
+      "employeeId": "emp-034",
+      "month": "2026-04",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-008",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-012",
+      "month": "2026-04",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-009",
+      "breakdownItemId": "wbs-045",
+      "employeeId": "emp-027",
+      "month": "2026-04",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-010",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-060",
+      "month": "2026-04",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-011",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-013",
+      "month": "2026-04",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-012",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-005",
+      "month": "2026-04",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-013",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-031",
+      "month": "2026-04",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-014",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-023",
+      "month": "2026-04",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-015",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-047",
+      "month": "2026-04",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-016",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-016",
+      "month": "2026-05",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-017",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-044",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-018",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-001",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-019",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-023",
+      "month": "2026-05",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-020",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-008",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-021",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-038",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-022",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-055",
+      "month": "2026-05",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-023",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-002",
+      "month": "2026-05",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-024",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-030",
+      "month": "2026-05",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-025",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-056",
+      "month": "2026-05",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-026",
+      "breakdownItemId": "wbs-038",
+      "employeeId": "emp-034",
+      "month": "2026-05",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-027",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-053",
+      "month": "2026-05",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-028",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-012",
+      "month": "2026-05",
+      "amount": 0.56
+    },
+    {
+      "id": "alloc-029",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-003",
+      "month": "2026-05",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-030",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-057",
+      "month": "2026-05",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-031",
+      "breakdownItemId": "wbs-050",
+      "employeeId": "emp-028",
+      "month": "2026-05",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-032",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-001",
+      "month": "2026-05",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-033",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-060",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-034",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-010",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-035",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-013",
+      "month": "2026-05",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-036",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-015",
+      "month": "2026-05",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-037",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-021",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-038",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-051",
+      "month": "2026-05",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-039",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-005",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-040",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-006",
+      "month": "2026-05",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-041",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-031",
+      "month": "2026-05",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-042",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-046",
+      "month": "2026-05",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-043",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-012",
+      "month": "2026-05",
+      "amount": 0.56
+    },
+    {
+      "id": "alloc-044",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-053",
+      "month": "2026-05",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-045",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-028",
+      "month": "2026-05",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-046",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-023",
+      "month": "2026-05",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-047",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-044",
+      "month": "2026-05",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-048",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-004",
+      "month": "2026-05",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-049",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-047",
+      "month": "2026-05",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-050",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-003",
+      "month": "2026-06",
+      "amount": 0.59
+    },
+    {
+      "id": "alloc-051",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-016",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-052",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-044",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-053",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-001",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-054",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-023",
+      "month": "2026-06",
+      "amount": 0.65
+    },
+    {
+      "id": "alloc-055",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-008",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-056",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-028",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-057",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-038",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-058",
+      "breakdownItemId": "wbs-020",
+      "employeeId": "emp-004",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-059",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-025",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-060",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-002",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-061",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-055",
+      "month": "2026-06",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-062",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-046",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-063",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-030",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-064",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-056",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-065",
+      "breakdownItemId": "wbs-038",
+      "employeeId": "emp-034",
+      "month": "2026-06",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-066",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-053",
+      "month": "2026-06",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-067",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-012",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-068",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-057",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-069",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-004",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-070",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-031",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-071",
+      "breakdownItemId": "wbs-045",
+      "employeeId": "emp-050",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-072",
+      "breakdownItemId": "wbs-050",
+      "employeeId": "emp-028",
+      "month": "2026-06",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-073",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-003",
+      "month": "2026-06",
+      "amount": 0.59
+    },
+    {
+      "id": "alloc-074",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-040",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-075",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-041",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-076",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-021",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-077",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-032",
+      "month": "2026-06",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-078",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-022",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-079",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-043",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-080",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-057",
+      "month": "2026-06",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-081",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-036",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-082",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-058",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-083",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-012",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-084",
+      "breakdownItemId": "wbs-072",
+      "employeeId": "emp-034",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-085",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-001",
+      "month": "2026-06",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-086",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-060",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-087",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-010",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-088",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-013",
+      "month": "2026-06",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-089",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-015",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-090",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-021",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-091",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-051",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-092",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-005",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-093",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-024",
+      "month": "2026-06",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-094",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-027",
+      "month": "2026-06",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-095",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-006",
+      "month": "2026-06",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-096",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-031",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-097",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-046",
+      "month": "2026-06",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-098",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-029",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-099",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-053",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-100",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-028",
+      "month": "2026-06",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-101",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-023",
+      "month": "2026-06",
+      "amount": 0.65
+    },
+    {
+      "id": "alloc-102",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-044",
+      "month": "2026-06",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-103",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-050",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-104",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-004",
+      "month": "2026-06",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-105",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-047",
+      "month": "2026-06",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-106",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-016",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-107",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-044",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-108",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-001",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-109",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-023",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-110",
+      "breakdownItemId": "wbs-016",
+      "employeeId": "emp-054",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-111",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-008",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-112",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-038",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-113",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-035",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-114",
+      "breakdownItemId": "wbs-020",
+      "employeeId": "emp-004",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-115",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-025",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-116",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-056",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-117",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-002",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-118",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-021",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-119",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-055",
+      "month": "2026-07",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-120",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-046",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-121",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-055",
+      "month": "2026-07",
+      "amount": 0.1
+    },
+    {
+      "id": "alloc-122",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-023",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-123",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-026",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-124",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-030",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-125",
+      "breakdownItemId": "wbs-038",
+      "employeeId": "emp-034",
+      "month": "2026-07",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-126",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-053",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-127",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-012",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-128",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-057",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-129",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-001",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-130",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-004",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-131",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-003",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-132",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-031",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-133",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-039",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-134",
+      "breakdownItemId": "wbs-050",
+      "employeeId": "emp-028",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-135",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-003",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-136",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-040",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-137",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-060",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-138",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-041",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-139",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-032",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-140",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-037",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-141",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-043",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-142",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-057",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-143",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-038",
+      "month": "2026-07",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-144",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-005",
+      "month": "2026-07",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-145",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-036",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-146",
+      "breakdownItemId": "wbs-069",
+      "employeeId": "emp-048",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-147",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-058",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-148",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-012",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-149",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-055",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-150",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-050",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-151",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-060",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-152",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-010",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-153",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-013",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-154",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-015",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-155",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-021",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-156",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-037",
+      "month": "2026-07",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-157",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-051",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-158",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-005",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-159",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-024",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-160",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-027",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-161",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-049",
+      "month": "2026-07",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-162",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-006",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-163",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-031",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-164",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-046",
+      "month": "2026-07",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-165",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-029",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-166",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-034",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-167",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-053",
+      "month": "2026-07",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-168",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-028",
+      "month": "2026-07",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-169",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-059",
+      "month": "2026-07",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-170",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-023",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-171",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-044",
+      "month": "2026-07",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-172",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-053",
+      "month": "2026-07",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-173",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-004",
+      "month": "2026-07",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-174",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-016",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-175",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-044",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-176",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-003",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-177",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-001",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-178",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-023",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-179",
+      "breakdownItemId": "wbs-016",
+      "employeeId": "emp-054",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-180",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-008",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-181",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-038",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-182",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-035",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-183",
+      "breakdownItemId": "wbs-020",
+      "employeeId": "emp-004",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-184",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-025",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-185",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-056",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-186",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-002",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-187",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-021",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-188",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-055",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-189",
+      "breakdownItemId": "wbs-023",
+      "employeeId": "emp-042",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-190",
+      "breakdownItemId": "wbs-024",
+      "employeeId": "emp-058",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-191",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-028",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-192",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-046",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-193",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-023",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-194",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-026",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-195",
+      "breakdownItemId": "wbs-038",
+      "employeeId": "emp-034",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-196",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-019",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-197",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-012",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-198",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-057",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-199",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-001",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-200",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-004",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-201",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-003",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-202",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-031",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-203",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-039",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-204",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-047",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-205",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-032",
+      "month": "2026-08",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-206",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-047",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-207",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-051",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-208",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-027",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-209",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-030",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-210",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-050",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-211",
+      "breakdownItemId": "wbs-050",
+      "employeeId": "emp-028",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-212",
+      "breakdownItemId": "wbs-050",
+      "employeeId": "emp-032",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-213",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-007",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-214",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-003",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-215",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-040",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-216",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-021",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-217",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-060",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-218",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-022",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-219",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-041",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-220",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-032",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-221",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-039",
+      "month": "2026-08",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-222",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-043",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-223",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-057",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-224",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-038",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-225",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-045",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-226",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-005",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-227",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-009",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-228",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-036",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-229",
+      "breakdownItemId": "wbs-069",
+      "employeeId": "emp-048",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-230",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-046",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-231",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-051",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-232",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-058",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-233",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-012",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-234",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-015",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-235",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-031",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-236",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-055",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-237",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-033",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-238",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-050",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-239",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-010",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-240",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-013",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-241",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-015",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-242",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-021",
+      "month": "2026-08",
+      "amount": 0.45
+    },
+    {
+      "id": "alloc-243",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-017",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-244",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-037",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-245",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-051",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-246",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-005",
+      "month": "2026-08",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-247",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-024",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-248",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-027",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-249",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-049",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-250",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-006",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-251",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-031",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-252",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-046",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-253",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-029",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-254",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-034",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-255",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-053",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-256",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-028",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-257",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-059",
+      "month": "2026-08",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-258",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-044",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-259",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-004",
+      "month": "2026-08",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-260",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-037",
+      "month": "2026-08",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-261",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-048",
+      "month": "2026-08",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-262",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-052",
+      "month": "2026-08",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-263",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-057",
+      "month": "2026-08",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-264",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-016",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-265",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-048",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-266",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-003",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-267",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-001",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-268",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-011",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-269",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-018",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-270",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-023",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-271",
+      "breakdownItemId": "wbs-016",
+      "employeeId": "emp-054",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-272",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-008",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-273",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-028",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-274",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-038",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-275",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-045",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-276",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-035",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-277",
+      "breakdownItemId": "wbs-020",
+      "employeeId": "emp-004",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-278",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-025",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-279",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-056",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-280",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-002",
+      "month": "2026-09",
+      "amount": 0.53
+    },
+    {
+      "id": "alloc-281",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-021",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-282",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-055",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-283",
+      "breakdownItemId": "wbs-023",
+      "employeeId": "emp-042",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-284",
+      "breakdownItemId": "wbs-024",
+      "employeeId": "emp-044",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-285",
+      "breakdownItemId": "wbs-024",
+      "employeeId": "emp-058",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-286",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-013",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-287",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-046",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-288",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-022",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-289",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-023",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-290",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-026",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-291",
+      "breakdownItemId": "wbs-038",
+      "employeeId": "emp-034",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-292",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-060",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-293",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-002",
+      "month": "2026-09",
+      "amount": 0.52
+    },
+    {
+      "id": "alloc-294",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-014",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-295",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-019",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-296",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-012",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-297",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-031",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-298",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-041",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-299",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-057",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-300",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-001",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-301",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-004",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-302",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-003",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-303",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-031",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-304",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-005",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-305",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-039",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-306",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-047",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-307",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-040",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-308",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-051",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-309",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-018",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-310",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-027",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-311",
+      "breakdownItemId": "wbs-050",
+      "employeeId": "emp-028",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-312",
+      "breakdownItemId": "wbs-050",
+      "employeeId": "emp-032",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-313",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-007",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-314",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-003",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-315",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-040",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-316",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-021",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-317",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-060",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-318",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-022",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-319",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-041",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-320",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-006",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-321",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-039",
+      "month": "2026-09",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-322",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-043",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-323",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-057",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-324",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-038",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-325",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-045",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-326",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-030",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-327",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-005",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-328",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-009",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-329",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-036",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-330",
+      "breakdownItemId": "wbs-069",
+      "employeeId": "emp-048",
+      "month": "2026-09",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-331",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-046",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-332",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-051",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-333",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-058",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-334",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-012",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-335",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-055",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-336",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-033",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-337",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-050",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-338",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-010",
+      "month": "2026-09",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-339",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-013",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-340",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-021",
+      "month": "2026-09",
+      "amount": 0.45
+    },
+    {
+      "id": "alloc-341",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-022",
+      "month": "2026-09",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-342",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-037",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-343",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-051",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-344",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-005",
+      "month": "2026-09",
+      "amount": 0.1
+    },
+    {
+      "id": "alloc-345",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-027",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-346",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-049",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-347",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-006",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-348",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-046",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-349",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-029",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-350",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-034",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-351",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-053",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-352",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-028",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-353",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-059",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-354",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-044",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-355",
+      "breakdownItemId": "wbs-089",
+      "employeeId": "emp-034",
+      "month": "2026-09",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-356",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-004",
+      "month": "2026-09",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-357",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-025",
+      "month": "2026-09",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-358",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-052",
+      "month": "2026-09",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-359",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-057",
+      "month": "2026-09",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-360",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-016",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-361",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-048",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-362",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-003",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-363",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-032",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-364",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-001",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-365",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-011",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-366",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-018",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-367",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-020",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-368",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-023",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-369",
+      "breakdownItemId": "wbs-016",
+      "employeeId": "emp-054",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-370",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-008",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-371",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-028",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-372",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-038",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-373",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-045",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-374",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-035",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-375",
+      "breakdownItemId": "wbs-020",
+      "employeeId": "emp-004",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-376",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-025",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-377",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-056",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-378",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-002",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-379",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-021",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-380",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-043",
+      "month": "2026-10",
+      "amount": 0.54
+    },
+    {
+      "id": "alloc-381",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-055",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-382",
+      "breakdownItemId": "wbs-023",
+      "employeeId": "emp-042",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-383",
+      "breakdownItemId": "wbs-024",
+      "employeeId": "emp-058",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-384",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-013",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-385",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-046",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-386",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-022",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-387",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-023",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-388",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-026",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-389",
+      "breakdownItemId": "wbs-038",
+      "employeeId": "emp-034",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-390",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-060",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-391",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-002",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-392",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-010",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-393",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-014",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-394",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-019",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-395",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-012",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-396",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-029",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-397",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-041",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-398",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-057",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-399",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-001",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-400",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-004",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-401",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-003",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-402",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-031",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-403",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-005",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-404",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-039",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-405",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-041",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-406",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-047",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-407",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-040",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-408",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-051",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-409",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-018",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-410",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-027",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-411",
+      "breakdownItemId": "wbs-050",
+      "employeeId": "emp-032",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-412",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-007",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-413",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-056",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-414",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-040",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-415",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-021",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-416",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-060",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-417",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-022",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-418",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-041",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-419",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-006",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-420",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-039",
+      "month": "2026-10",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-421",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-043",
+      "month": "2026-10",
+      "amount": 0.53
+    },
+    {
+      "id": "alloc-422",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-057",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-423",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-034",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-424",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-038",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-425",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-045",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-426",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-030",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-427",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-005",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-428",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-009",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-429",
+      "breakdownItemId": "wbs-069",
+      "employeeId": "emp-048",
+      "month": "2026-10",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-430",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-046",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-431",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-051",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-432",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-058",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-433",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-012",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-434",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-026",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-435",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-055",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-436",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-033",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-437",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-050",
+      "month": "2026-10",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-438",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-010",
+      "month": "2026-10",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-439",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-013",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-440",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-021",
+      "month": "2026-10",
+      "amount": 0.45
+    },
+    {
+      "id": "alloc-441",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-022",
+      "month": "2026-10",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-442",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-037",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-443",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-051",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-444",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-017",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-445",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-027",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-446",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-049",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-447",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-006",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-448",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-037",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-449",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-046",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-450",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-029",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-451",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-034",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-452",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-053",
+      "month": "2026-10",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-453",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-028",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-454",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-059",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-455",
+      "breakdownItemId": "wbs-088",
+      "employeeId": "emp-044",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-456",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-004",
+      "month": "2026-10",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-457",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-025",
+      "month": "2026-10",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-458",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-052",
+      "month": "2026-10",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-459",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-057",
+      "month": "2026-10",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-460",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-016",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-461",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-048",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-462",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-003",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-463",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-032",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-464",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-011",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-465",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-018",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-466",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-020",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-467",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-023",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-468",
+      "breakdownItemId": "wbs-016",
+      "employeeId": "emp-054",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-469",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-008",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-470",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-028",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-471",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-038",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-472",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-045",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-473",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-035",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-474",
+      "breakdownItemId": "wbs-020",
+      "employeeId": "emp-004",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-475",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-025",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-476",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-056",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-477",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-002",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-478",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-021",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-479",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-043",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-480",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-058",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-481",
+      "breakdownItemId": "wbs-023",
+      "employeeId": "emp-042",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-482",
+      "breakdownItemId": "wbs-024",
+      "employeeId": "emp-058",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-483",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-013",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-484",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-046",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-485",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-022",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-486",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-023",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-487",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-026",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-488",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-060",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-489",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-002",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-490",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-010",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-491",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-014",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-492",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-019",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-493",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-029",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-494",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-041",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-495",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-057",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-496",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-001",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-497",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-004",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-498",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-003",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-499",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-031",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-500",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-005",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-501",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-039",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-502",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-047",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-503",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-050",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-504",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-028",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-505",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-040",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-506",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-051",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-507",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-018",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-508",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-007",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-509",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-056",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-510",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-040",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-511",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-021",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-512",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-060",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-513",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-022",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-514",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-041",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-515",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-006",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-516",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-039",
+      "month": "2026-11",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-517",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-015",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-518",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-057",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-519",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-034",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-520",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-038",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-521",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-045",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-522",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-017",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-523",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-030",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-524",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-005",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-525",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-009",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-526",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-031",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-527",
+      "breakdownItemId": "wbs-069",
+      "employeeId": "emp-048",
+      "month": "2026-11",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-528",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-046",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-529",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-051",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-530",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-058",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-531",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-012",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-532",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-026",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-533",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-037",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-534",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-055",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-535",
+      "breakdownItemId": "wbs-072",
+      "employeeId": "emp-001",
+      "month": "2026-11",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-536",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-033",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-537",
+      "breakdownItemId": "wbs-080",
+      "employeeId": "emp-050",
+      "month": "2026-11",
+      "amount": 0.45
+    },
+    {
+      "id": "alloc-538",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-010",
+      "month": "2026-11",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-539",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-013",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-540",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-021",
+      "month": "2026-11",
+      "amount": 0.45
+    },
+    {
+      "id": "alloc-541",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-022",
+      "month": "2026-11",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-542",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-037",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-543",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-051",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-544",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-017",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-545",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-027",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-546",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-049",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-547",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-006",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-548",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-034",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-549",
+      "breakdownItemId": "wbs-086",
+      "employeeId": "emp-053",
+      "month": "2026-11",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-550",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-028",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-551",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-004",
+      "month": "2026-11",
+      "amount": 0.15
+    },
+    {
+      "id": "alloc-552",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-025",
+      "month": "2026-11",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-553",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-052",
+      "month": "2026-11",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-554",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-057",
+      "month": "2026-11",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-555",
+      "breakdownItemId": "wbs-012",
+      "employeeId": "emp-048",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-556",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-003",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-557",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-032",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-558",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-011",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-559",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-018",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-560",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-020",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-561",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-023",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-562",
+      "breakdownItemId": "wbs-016",
+      "employeeId": "emp-054",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-563",
+      "breakdownItemId": "wbs-017",
+      "employeeId": "emp-028",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-564",
+      "breakdownItemId": "wbs-018",
+      "employeeId": "emp-045",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-565",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-035",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-566",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-043",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-567",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-056",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-568",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-002",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-569",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-021",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-570",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-043",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-571",
+      "breakdownItemId": "wbs-023",
+      "employeeId": "emp-042",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-572",
+      "breakdownItemId": "wbs-024",
+      "employeeId": "emp-058",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-573",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-013",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-574",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-046",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-575",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-023",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-576",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-026",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-577",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-060",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-578",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-002",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-579",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-010",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-580",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-014",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-581",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-019",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-582",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-029",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-583",
+      "breakdownItemId": "wbs-042",
+      "employeeId": "emp-041",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-584",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-001",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-585",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-004",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-586",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-003",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-587",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-018",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-588",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-031",
+      "month": "2026-12",
+      "amount": 0.51
+    },
+    {
+      "id": "alloc-589",
+      "breakdownItemId": "wbs-045",
+      "employeeId": "emp-034",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-590",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-005",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-591",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-039",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-592",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-047",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-593",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-050",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-594",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-040",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-595",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-051",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-596",
+      "breakdownItemId": "wbs-049",
+      "employeeId": "emp-018",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-597",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-007",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-598",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-022",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-599",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-056",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-600",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-040",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-601",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-021",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-602",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-060",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-603",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-022",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-604",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-041",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-605",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-006",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-606",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-015",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-607",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-057",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-608",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-034",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-609",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-045",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-610",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-017",
+      "month": "2026-12",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-611",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-030",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-612",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-005",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-613",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-031",
+      "month": "2026-12",
+      "amount": 0.51
+    },
+    {
+      "id": "alloc-614",
+      "breakdownItemId": "wbs-069",
+      "employeeId": "emp-048",
+      "month": "2026-12",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-615",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-046",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-616",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-051",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-617",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-012",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-618",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-026",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-619",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-037",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-620",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-055",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-621",
+      "breakdownItemId": "wbs-072",
+      "employeeId": "emp-001",
+      "month": "2026-12",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-622",
+      "breakdownItemId": "wbs-081",
+      "employeeId": "emp-010",
+      "month": "2026-12",
+      "amount": 0.35
+    },
+    {
+      "id": "alloc-623",
+      "breakdownItemId": "wbs-082",
+      "employeeId": "emp-022",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-624",
+      "breakdownItemId": "wbs-083",
+      "employeeId": "emp-037",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-625",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-017",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-626",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-027",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-627",
+      "breakdownItemId": "wbs-084",
+      "employeeId": "emp-049",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-628",
+      "breakdownItemId": "wbs-085",
+      "employeeId": "emp-006",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-629",
+      "breakdownItemId": "wbs-087",
+      "employeeId": "emp-028",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-630",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-025",
+      "month": "2026-12",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-631",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-052",
+      "month": "2026-12",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-632",
+      "breakdownItemId": "wbs-090",
+      "employeeId": "emp-057",
+      "month": "2026-12",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-633",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-003",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-634",
+      "breakdownItemId": "wbs-014",
+      "employeeId": "emp-032",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-635",
+      "breakdownItemId": "wbs-015",
+      "employeeId": "emp-018",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-636",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-035",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-637",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-056",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-638",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-043",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-639",
+      "breakdownItemId": "wbs-024",
+      "employeeId": "emp-058",
+      "month": "2027-01",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-640",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-013",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-641",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-023",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-642",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-026",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-643",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-024",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-644",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-060",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-645",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-002",
+      "month": "2027-01",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-646",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-010",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-647",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-014",
+      "month": "2027-01",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-648",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-019",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-649",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-029",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-650",
+      "breakdownItemId": "wbs-043",
+      "employeeId": "emp-001",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-651",
+      "breakdownItemId": "wbs-044",
+      "employeeId": "emp-003",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-652",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-005",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-653",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-039",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-654",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-047",
+      "month": "2027-01",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-655",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-050",
+      "month": "2027-01",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-656",
+      "breakdownItemId": "wbs-048",
+      "employeeId": "emp-051",
+      "month": "2027-01",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-657",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-007",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-658",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-013",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-659",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-056",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-660",
+      "breakdownItemId": "wbs-061",
+      "employeeId": "emp-040",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-661",
+      "breakdownItemId": "wbs-062",
+      "employeeId": "emp-060",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-662",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-022",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-663",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-041",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-664",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-006",
+      "month": "2027-01",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-665",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-015",
+      "month": "2027-01",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-666",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-057",
+      "month": "2027-01",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-667",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-034",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-668",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-045",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-669",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-013",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-670",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-017",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-671",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-030",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-672",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-031",
+      "month": "2027-01",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-673",
+      "breakdownItemId": "wbs-069",
+      "employeeId": "emp-045",
+      "month": "2027-01",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-674",
+      "breakdownItemId": "wbs-069",
+      "employeeId": "emp-048",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-675",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-012",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-676",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-026",
+      "month": "2027-01",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-677",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-037",
+      "month": "2027-01",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-678",
+      "breakdownItemId": "wbs-019",
+      "employeeId": "emp-035",
+      "month": "2027-02",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-679",
+      "breakdownItemId": "wbs-021",
+      "employeeId": "emp-056",
+      "month": "2027-02",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-680",
+      "breakdownItemId": "wbs-022",
+      "employeeId": "emp-043",
+      "month": "2027-02",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-681",
+      "breakdownItemId": "wbs-024",
+      "employeeId": "emp-058",
+      "month": "2027-02",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-682",
+      "breakdownItemId": "wbs-025",
+      "employeeId": "emp-013",
+      "month": "2027-02",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-683",
+      "breakdownItemId": "wbs-037",
+      "employeeId": "emp-023",
+      "month": "2027-02",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-684",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-024",
+      "month": "2027-02",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-685",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-060",
+      "month": "2027-02",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-686",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-002",
+      "month": "2027-02",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-687",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-010",
+      "month": "2027-02",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-688",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-014",
+      "month": "2027-02",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-689",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-019",
+      "month": "2027-02",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-690",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-029",
+      "month": "2027-02",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-691",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-005",
+      "month": "2027-02",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-692",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-039",
+      "month": "2027-02",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-693",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-047",
+      "month": "2027-02",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-694",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-050",
+      "month": "2027-02",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-695",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-060",
+      "month": "2027-02",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-696",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-007",
+      "month": "2027-02",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-697",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-056",
+      "month": "2027-02",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-698",
+      "breakdownItemId": "wbs-063",
+      "employeeId": "emp-022",
+      "month": "2027-02",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-699",
+      "breakdownItemId": "wbs-064",
+      "employeeId": "emp-006",
+      "month": "2027-02",
+      "amount": 0.25
+    },
+    {
+      "id": "alloc-700",
+      "breakdownItemId": "wbs-065",
+      "employeeId": "emp-036",
+      "month": "2027-02",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-701",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-034",
+      "month": "2027-02",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-702",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-045",
+      "month": "2027-02",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-703",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-013",
+      "month": "2027-02",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-704",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-031",
+      "month": "2027-02",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-705",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-026",
+      "month": "2027-02",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-706",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-037",
+      "month": "2027-02",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-707",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-024",
+      "month": "2027-03",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-708",
+      "breakdownItemId": "wbs-039",
+      "employeeId": "emp-060",
+      "month": "2027-03",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-709",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-010",
+      "month": "2027-03",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-710",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-014",
+      "month": "2027-03",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-711",
+      "breakdownItemId": "wbs-040",
+      "employeeId": "emp-019",
+      "month": "2027-03",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-712",
+      "breakdownItemId": "wbs-041",
+      "employeeId": "emp-029",
+      "month": "2027-03",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-713",
+      "breakdownItemId": "wbs-046",
+      "employeeId": "emp-050",
+      "month": "2027-03",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-714",
+      "breakdownItemId": "wbs-060",
+      "employeeId": "emp-007",
+      "month": "2027-03",
+      "amount": 0.5
+    },
+    {
+      "id": "alloc-715",
+      "breakdownItemId": "wbs-066",
+      "employeeId": "emp-034",
+      "month": "2027-03",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-716",
+      "breakdownItemId": "wbs-067",
+      "employeeId": "emp-013",
+      "month": "2027-03",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-717",
+      "breakdownItemId": "wbs-068",
+      "employeeId": "emp-031",
+      "month": "2027-03",
+      "amount": 0.2
+    },
+    {
+      "id": "alloc-718",
+      "breakdownItemId": "wbs-070",
+      "employeeId": "emp-021",
+      "month": "2027-03",
+      "amount": 0.3
+    },
+    {
+      "id": "alloc-719",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-026",
+      "month": "2027-03",
+      "amount": 0.4
+    },
+    {
+      "id": "alloc-720",
+      "breakdownItemId": "wbs-071",
+      "employeeId": "emp-037",
+      "month": "2027-03",
+      "amount": 0.5
+    }
+  ]
+}

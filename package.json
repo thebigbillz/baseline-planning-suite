@@ -1,0 +1,14 @@
+{
+  "name": "baseline",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Baseline Planning Suite: shell, People and Delivery as three federated builds",
+  "workspaces": ["packages/*", "apps/*", "services/*"],
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "dev": "node infra/dev.mjs"
+  }
+}
