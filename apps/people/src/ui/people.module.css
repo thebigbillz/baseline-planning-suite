@@ -15,8 +15,8 @@
 .placeholder { min-height: 200px; align-items: center; justify-content: center; color: var(--bl-ink-3); border-style: dashed; }
 .page button:focus-visible, .page input:focus-visible, .page select:focus-visible { outline: none; box-shadow: var(--bl-focus); }
 
-.controls { display: flex; align-items: center; gap: 12px; }
-.search { height: 40px; width: 300px; box-sizing: border-box; padding: 0 12px; border: 1px solid var(--bl-border-strong); border-radius: var(--bl-radius-m); font: 13.5px var(--bl-font); color: var(--bl-ink); }
+.controls { display: flex; align-items: center; gap: 12px; white-space: nowrap; }
+.search { height: 40px; width: 260px; box-sizing: border-box; padding: 0 12px; border: 1px solid var(--bl-border-strong); border-radius: var(--bl-radius-m); font: 13.5px var(--bl-font); color: var(--bl-ink); }
 .chip { height: 40px; padding: 0 14px; border: 1px solid var(--bl-alert-border); border-radius: var(--bl-radius-m); background: var(--bl-alert-tint); color: var(--bl-alert); font: 600 13px var(--bl-font); cursor: pointer; }
 .chip[aria-pressed='true'] { background: var(--bl-alert); border-color: var(--bl-alert); color: #fff; }
 .monthPicker { display: flex; align-items: center; gap: 8px; height: 40px; padding: 0 6px 0 12px; border: 1px solid var(--bl-border-strong); border-radius: var(--bl-radius-m); color: var(--bl-ink-3); font-size: 13px; }
