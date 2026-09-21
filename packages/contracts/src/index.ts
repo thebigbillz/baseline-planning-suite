@@ -17,40 +17,6 @@ export type IsoDate = Brand<string, 'IsoDate'>;
 export const WEEKLY_HOURS = [40, 32, 20] as const;
 export type WeeklyHours = (typeof WEEKLY_HOURS)[number];
 
-// ---------- shell → remotes ----------
-
-export type CurrencyCode = 'EUR' | 'USD' | 'GBP';
-
-/** Costs are stored in EUR. The shell owns how they are read. */
-export interface DisplayCurrency {
-  readonly code: CurrencyCode;
-  readonly symbol: string;
-  /** Units of this currency per one euro. */
-  readonly perEuro: number;
-}
-
-export interface ActiveUser {
-  readonly id: EmployeeId;
-  readonly name: string;
-  readonly role: string;
-}
-
-export interface HostContext {
-  readonly currency: DisplayCurrency;
-  readonly user: ActiveUser;
-}
-
-export interface MountedRemote {
-  /** The shell calls this whenever currency or user changes. */
-  update(context: HostContext): void;
-  unmount(): void;
-}
-
-/** The single module every remote exposes as `./mount`. */
-export interface RemoteModule {
-  mount(element: HTMLElement, context: HostContext): MountedRemote;
-}
-
 // ---------- People's published API (`/api/people`) ----------
 
 export interface Employee {
