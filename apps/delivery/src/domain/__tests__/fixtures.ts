@@ -13,7 +13,7 @@ export function rate(id: string, employee: string, validFrom: string, hourlyCost
 }
 
 export function allocation(id: string, item: string, employee: string, monthKey: string, personMonths: number, updatedAt = '2026-01-01T00:00:00.000Z'): Allocation {
-  return { id: id as AllocationId, breakdownItemId: itemId(item), employeeId: employeeId(employee), month: month(monthKey), personMonths, updatedAt };
+  return { id: id as AllocationId, breakdownItemId: itemId(item), employeeId: employeeId(employee), month: month(monthKey), personMonths, updatedAt, updatedBy: null };
 }
 
 /** The shipped fixture, mapped into Delivery's model and People's contract. */

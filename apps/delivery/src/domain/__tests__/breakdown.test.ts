@@ -25,8 +25,8 @@ describe('adding a work item', () => {
     if (!result.ok) return;
     expect(result.value.moved.map((entry) => entry.id)).toEqual(['alloc-a', 'alloc-b']);
     expect(result.value.changes.upsertAllocations).toEqual([
-      { id: 'alloc-a', breakdownItemId: newId, employeeId: 'emp-001', month: '2026-05', personMonths: 0.3 },
-      { id: 'alloc-b', breakdownItemId: newId, employeeId: 'emp-002', month: '2026-05', personMonths: 0.45 },
+      { id: 'alloc-a', breakdownItemId: newId, employeeId: 'emp-001', month: '2026-05', personMonths: 0.3, updatedBy: null },
+      { id: 'alloc-b', breakdownItemId: newId, employeeId: 'emp-002', month: '2026-05', personMonths: 0.45, updatedBy: null },
     ]);
     expect(result.value.changes.deleteAllocationIds).toEqual([]);
   });

@@ -17,7 +17,7 @@ const BASE = '/api/delivery';
  */
 interface Project { id: string; name: string; startDate: string; endDate: string }
 interface BreakdownItem { id: string; projectId: string; parentId: string | null; name: string }
-interface Allocation { id: string; breakdownItemId: string; employeeId: string; month: string; personMonths: number; updatedAt: string }
+interface Allocation { id: string; breakdownItemId: string; employeeId: string; month: string; personMonths: number; updatedAt: string; updatedBy: string | null }
 interface Plan { projects: Project[]; items: BreakdownItem[]; allocations: Allocation[] }
 
 interface SeedFile {
@@ -33,7 +33,7 @@ function fromSeed(): Plan {
   return {
     projects: seed.projects,
     items: seed.breakdownItems,
-    allocations: seed.allocations.map(({ amount, ...allocation }) => ({ ...allocation, personMonths: amount, updatedAt: seededAt })),
+    allocations: seed.allocations.map(({ amount, ...allocation }) => ({ ...allocation, personMonths: amount, updatedAt: seededAt, updatedBy: null })),
   };
 }
 
@@ -77,6 +77,7 @@ function parseAllocation(value: unknown, stamp: string): Allocation {
     month,
     personMonths,
     updatedAt: stamp,
+    updatedBy: typeof value['updatedBy'] === 'string' ? value['updatedBy'] : null,
   };
 }
 

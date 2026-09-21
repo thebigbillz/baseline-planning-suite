@@ -33,6 +33,8 @@ export interface Allocation {
   readonly personMonths: number;
   /** Set by Delivery's service on every write; decides which edit "caused" an overload. */
   readonly updatedAt: string;
+  /** The shell's active user at the time of the edit; null for fixture data. */
+  readonly updatedBy: string | null;
 }
 
 export interface Plan {
