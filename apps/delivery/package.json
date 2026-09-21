@@ -1,0 +1,12 @@
+{
+  "name": "@baseline/delivery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Delivery remote: work breakdown, staffing grid and pricing",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": { "@baseline/contracts": "1.0.0", "@baseline/tokens": "1.0.0" },
+  "devDependencies": { "typescript": "^5.6.3", "vitest": "^2.1.8" }
+}
