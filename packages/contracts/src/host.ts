@@ -31,7 +31,16 @@ export interface MountedRemote {
   unmount(): void;
 }
 
+/**
+ * Places in the host's chrome that a remote may fill. The host owns the
+ * element; the remote owns what it renders there.
+ */
+export interface HostSlots {
+  /** Below the navigation in the sidebar. Delivery puts its project search and recents here. */
+  readonly sidebar?: HTMLElement;
+}
+
 /** The single module every remote exposes as `./mount`. */
 export interface RemoteModule {
-  mount(element: HTMLElement, context: HostContext): MountedRemote;
+  mount(element: HTMLElement, context: HostContext, slots?: HostSlots): MountedRemote;
 }

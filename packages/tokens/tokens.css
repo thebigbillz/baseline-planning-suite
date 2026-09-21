@@ -1,0 +1,41 @@
+/*
+ * Baseline design tokens. One accent, one alert: every colour has one job.
+ * Shared as CSS custom properties, never as components.
+ */
+:root {
+  --bl-ink: #161b2e;
+  --bl-ink-2: #3a4052;
+  --bl-ink-3: #5b6172;
+  --bl-ink-4: #9a9ea9;
+
+  --bl-ground: #f6f6f3;
+  --bl-surface: #ffffff;
+  --bl-surface-2: #fafaf8;
+  --bl-derived: #f3f4ee;
+  --bl-sunken: #f1f1ec;
+  --bl-border: #e6e5e0;
+  --bl-border-strong: #dddcd5;
+  --bl-hairline: #eeede8;
+
+  --bl-accent: #2f4da3;
+  --bl-accent-hover: #223a7d;
+  --bl-accent-tint: #e9eef9;
+  --bl-accent-soft: #b9c6ea;
+
+  --bl-alert: #a9531f;
+  --bl-alert-tint: #f8ece2;
+  --bl-alert-border: #ebd5c2;
+
+  --bl-ok: #2f7a4f;
+
+  --bl-font: 'IBM Plex Sans', system-ui, sans-serif;
+  --bl-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --bl-radius-s: 6px;
+  --bl-radius-m: 8px;
+  --bl-radius-l: 10px;
+  --bl-radius-xl: 12px;
+
+  --bl-shadow-pop: 0 24px 48px -16px rgba(22, 27, 46, 0.28), 0 2px 6px rgba(22, 27, 46, 0.06);
+  --bl-focus: 0 0 0 3px rgba(47, 77, 163, 0.25);
+}
