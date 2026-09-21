@@ -6,3 +6,6 @@ data/
 # interview material that is not mine to publish
 *.pdf
 /baseline-seed.json
+
+# local tooling
+.claude/
