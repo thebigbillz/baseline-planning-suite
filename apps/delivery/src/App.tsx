@@ -76,7 +76,7 @@ export function App({ host, sidebarSlot }: { readonly host: HostContext; readonl
   // A project reached by link counts as opened, so it is there to reopen next time.
   useEffect(() => {
     if (project !== null) setRecent(pushRecent(project.id));
-  }, [project?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [project?.id]);
 
   // First sight of a project: open its top level so the grid is not a wall of collapsed rows.
   useEffect(() => {
@@ -179,7 +179,6 @@ export function App({ host, sidebarSlot }: { readonly host: HostContext; readonl
     if (editing === null || editing.text.trim() === editing.initial.trim()) return null;
     const converted = typedToPersonMonths(editing);
     return converted !== null && converted.result.ok ? { typed: converted.typed, personMonths: converted.result.personMonths } : null;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [editing, unit, host.currency.perEuro, contextFor]);
 
   // ---------- over capacity: jump to the next flagged cell ----------

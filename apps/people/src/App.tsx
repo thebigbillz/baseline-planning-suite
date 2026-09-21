@@ -34,7 +34,6 @@ export function App({ host }: { readonly host: HostContext }) {
       .filter((employee) => !onlyOver || overMonthsOf(employee.id).length > 0)
       .map((employee) => ({ employee, loadNow: load?.get(employee.id)?.get(month) ?? 0 }))
       .sort((a, b) => b.loadNow - a.loadNow || a.employee.name.localeCompare(b.employee.name));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [register.directory, query, onlyOver, load, month]);
 
   if (register.error !== null) {
