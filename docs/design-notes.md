@@ -1,6 +1,5 @@
 # Baseline — design notes
 
-Design canvas: https://claude.ai/artifact/JfEUQ7d5FjnX1iCMC6fFaE
 Every number on the boards is computed from `baseline-seed.json` using the brief's rules (R1–R5).
 
 ## Direction: "Calm workspace" (v3)
@@ -31,8 +30,6 @@ and whether the arithmetic is right.
 | People | Register and rates · Edge states: duplicate start date, delete a rate, Delivery unavailable |
 | Shell and system | Delivery failed to load · Delivery running standalone (harness bar) · Who owns what (contracts) |
 | Foundations | Colour, type, controls, space · Ten cell states and five work-item-row states |
-
-Key screens have a numbered design-notes strip beneath them on the canvas.
 
 ## Decisions worth defending in the walkthrough
 
@@ -67,7 +64,7 @@ Key screens have a numbered design-notes strip beneath them on the canvas.
 
 14. **R4 in the fixture.** Every staffed leaf in the seed is already on level 3, so adding beneath one is refused
     by the three-level limit. The move-the-plan dialog appears for a staffed leaf on level 1 or 2, for example a
-    new work item that was staffed before being broken down. The canvas mock shows it on “Design” for illustration.
+    new work item that was staffed before being broken down.
 
 ## Tokens
 

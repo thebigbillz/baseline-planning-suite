@@ -2,7 +2,6 @@
 **/dist
 services/*/data
 .git
-.claude
 docs
 *.pdf
 /baseline-seed.json

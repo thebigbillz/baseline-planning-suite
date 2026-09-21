@@ -7,5 +7,3 @@ services/*/data/
 *.pdf
 /baseline-seed.json
 
-# local tooling
-.claude/
