@@ -46,17 +46,19 @@ The two remotes never import each other. Both may import `packages/contracts` (t
 
 ## Brief checklist
 
-- [ ] R1 effective-dated rates, month slices, `validFrom` inclusive, Mon–Fri, zero cost + marked before first rate
-- [ ] R2 four units, one stored; € edit divides by blended rate; fixed precision; lossless round trip
-- [ ] R3 totals from exact values; largest-remainder so displayed cells add to displayed total
-- [ ] R4 parents derived, read-only; adding a child under a staffed leaf moves its allocations (never silent loss)
-- [ ] R5 capacity across all projects; People shows oversubscribed; Delivery names the latest-edited allocation; never blocks
-- [ ] Shell navigation, currency, user pushed at runtime
-- [ ] People search, rate add / correct / remove incl. retroactive
-- [ ] Delivery tree CRUD + move; every leaf cell editable
-- [ ] Rate edit reaches open Delivery cost view with no reload
-- [ ] Remote failure isolated; trigger provided
-- [ ] No UI libraries; TypeScript strict; no `any`
-- [ ] Three federated builds; runtime URLs; standalone and hosted from one build
-- [ ] `docker compose up` → localhost:8080, no Node on host
-- [ ] README, repo map, tests on calculation logic without React, real commit history
+All verified against the running Docker stack on 21 Sep 2026.
+
+- [x] R1 effective-dated rates, month slices, `validFrom` inclusive, Mon–Fri, zero cost + marked before first rate
+- [x] R2 four units, one stored; € edit divides by blended rate; fixed precision; lossless round trip
+- [x] R3 totals from exact values; largest-remainder so displayed cells add to displayed total
+- [x] R4 parents derived, read-only; adding a child under a staffed leaf moves its allocations (never silent loss)
+- [x] R5 capacity across all projects; People shows oversubscribed; Delivery names the latest-edited allocation; never blocks
+- [x] Shell navigation, currency, user pushed at runtime
+- [x] People search, rate add / correct / remove incl. retroactive
+- [x] Delivery tree CRUD + move; every leaf cell editable
+- [x] Rate edit reaches open Delivery cost view with no reload
+- [x] Remote failure isolated; trigger provided
+- [x] No UI libraries; TypeScript strict; no `any`
+- [x] Three federated builds; runtime URLs; standalone and hosted from one build
+- [x] `docker compose up` → localhost:8080, no Node on host
+- [x] README, repo map, tests on calculation logic without React, real commit history

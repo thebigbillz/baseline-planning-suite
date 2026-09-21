@@ -65,6 +65,10 @@ Key screens have a numbered design-notes strip beneath them on the canvas.
 13. **Scope line.** "+ New project" exists as a button only. Project creation is not in the brief, so no create
     flow or empty-project state is designed.
 
+14. **R4 in the fixture.** Every staffed leaf in the seed is already on level 3, so adding beneath one is refused
+    by the three-level limit. The move-the-plan dialog appears for a staffed leaf on level 1 or 2, for example a
+    new work item that was staffed before being broken down. The canvas mock shows it on “Design” for illustration.
+
 ## Tokens
 
 | Token | Value |
